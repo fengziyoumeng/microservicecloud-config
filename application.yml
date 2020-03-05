@@ -3,15 +3,15 @@
     active:
     - dev
 ---
-spring
-  profiles:dev        #开发环境
-    application:
-      name:microservicecloud-config-dev
+spring:                #必须有冒号
+  profiles: dev        #值前面必须有空格 开发环境 
+  application:
+      name: microservicecloud-config-dev
         
 ---
-spring
-  profiles:test       #测试环境
-    application:
-      name:microservicecloud-config-test
+spring:                #必须有冒号
+  profiles: test       #值前面必须有空格 测试环境
+  application:
+      name: microservicecloud-config-test #值前面必须有空格
 
 #请保存为UTF-8编码模式
