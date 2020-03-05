@@ -14,3 +14,5 @@ spring
     profiles:test       #测试环境
     application:
         name:microservicecloud-config-test
+
+#请保存为UTF-8编码模式
